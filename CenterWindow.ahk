@@ -13,4 +13,4 @@ CenterWindow(WinTitle:="A") {
 	WinGet, maximizedWindow, MinMax, A
 	if not maximizedWindow
 		CenterWindow()
-Return
+return
